@@ -1,0 +1,39 @@
+nav{
+    position: fixed;
+    margin-top: 100px;
+    top:0;
+    left:-100vw;
+    width:70%;
+    height:100%;
+    z-index: 999;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+nav.open{
+    top:0;
+    left:0;
+    background-color: white;
+    padding: 30px;
+
+}
+.close{
+    position: absolute;
+    top:8px;
+    left:8px;
+    z-index: 999;
+}
+
+
+nav ul{
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    padding-top: 60px;
+    flex-direction: column;
+}
+
+nav ul li{
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+}

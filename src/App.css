@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+img{
+    max-width: 100%;
+  }
+  ul{
+    list-style-type: none;
+  }
+  
+   :root {
+    font-family: "Kumbh Sans", sans-serif;
+  }
